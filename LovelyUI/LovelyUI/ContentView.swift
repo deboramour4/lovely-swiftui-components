@@ -24,7 +24,7 @@ struct ContentView: View {
                 NavigationLink(destination: ExploreView()) {
                     Text("Show ExploreView")
                 }
-                NavigationLink(destination: Welcome()) {
+                NavigationLink(destination: WelcomeView()) {
                     Text("Show WelcomeView")
                 }
             }
